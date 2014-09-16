@@ -1,0 +1,1 @@
+var AppCollection = Backbone.Collection.extend({});
