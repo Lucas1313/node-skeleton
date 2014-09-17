@@ -3,6 +3,7 @@ http.createServer(function (req, resp) {
 path  = unescape(__dirname+'/www' + req.url)
 console.log('THERE IS A PATH >>>>> '+path,__dirname)
 var doExists = true;
+
 try{
 	console.log(fs.openSync(path,'r'));
 }catch(e){
