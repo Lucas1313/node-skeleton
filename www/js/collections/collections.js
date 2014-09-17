@@ -1,1 +1,3 @@
-var AppCollection = Backbone.Collection.extend({});
+(function($){
+	
+})(jQuery);
